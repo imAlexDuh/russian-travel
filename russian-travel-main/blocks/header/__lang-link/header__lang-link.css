@@ -6,7 +6,6 @@
   font-weight: 400;
   font-size: 24px;
   max-width: 30px;
-  max-height: 28px;
   line-height: 28px;
   text-align: right;
   text-decoration: none;
@@ -40,7 +39,6 @@
   .header__lang-link {
     margin-top: 14px;
     max-width: 22px;
-    max-height: 20px;
     line-height: 20px;
   }
 }
