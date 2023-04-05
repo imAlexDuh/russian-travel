@@ -1,0 +1,40 @@
+.lead__title {
+  font-family: 'Inter';
+  text-align: center;
+  margin: 56px auto 0;
+  width: 720px;
+  height: 200px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100px;
+  color: #FFFFFF;
+  font-size: 96px;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__title {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin-top: 51px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    margin-top: 48px;
+    max-height: clamp(88px, 27vw, 200px);
+    font-size: clamp(40px, 12.5vw, 96px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 90%;
+    margin-top: 48px;
+    line-height: 44px;
+  }
+}
