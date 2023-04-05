@@ -27,10 +27,3 @@
     margin-top: 40px;
   }
 }
-
-/*     max-width: clamp(768px, 90.62vw, 928px);
-    max-height: clamp(480px, 57vw, 580px);
-
-  768
-    max-height: clamp(200px, 62.5vw, 480px);
-
