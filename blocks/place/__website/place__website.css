@@ -2,3 +2,12 @@
   margin-right: 28px;
   align-self: end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0;
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

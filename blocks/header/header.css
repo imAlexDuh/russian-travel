@@ -3,26 +3,21 @@
   display: flex;
   justify-content: space-between;
   margin: 28px auto 0;
-}
-
-@media screen and (max-width: 1280px) {
-  .header {
-    margin-right: 3.75vw;
-    margin-left: 3.75vw;
-  }
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    margin-right: 3.125vw;
-    margin-left: 3.125vw;
+    padding-right: 3.125vw;
+    padding-left: 3.125vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    margin-top: 5%;
-    margin-right: 5vw;
-    margin-left: 5vw;
+    margin-top: 16px;
+    padding-right: 5vw;
+    padding-left: 5vw;
   }
 }

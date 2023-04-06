@@ -29,5 +29,22 @@
     margin: 0 auto 50px;
     row-gap: 32px;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    grid-template-rows: minmax(35px, max-content) 1fr;
+  }
+}
+
+.place:last-child {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .place:last-child {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .place:last-child {
+    margin-bottom: 66px;
   }
 }
