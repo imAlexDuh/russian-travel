@@ -6,12 +6,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26px;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
-   margin-bottom: 34px;
+    margin-bottom: 34px;
   }
 }
