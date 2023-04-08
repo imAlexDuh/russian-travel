@@ -1,6 +1,6 @@
 .header__lang-link {
   display: flex;
-  font-family: 'Inter';
+  font-family: "Inter", "Arial ", sans-serif;
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
